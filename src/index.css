@@ -5,7 +5,7 @@ html{
 body {
   margin: 0;
   padding: 0;
-  background: url(/img/background-2462431.jpg) ;
+  
   background-size: 100%;
   
 
@@ -24,14 +24,6 @@ form{
 
 form button, form h5{
   margin: 20px 0;
-}
-
-input[type=text]:not(.browser-default):focus:not([readonly]),
-input[type=email]:not(.browser-default):focus:not([readonly]),
-input[type=password]:not(.browser-default):focus:not([readonly]),
-textarea.materiaalize-textarea:focus:not([readonly]){
-  border-color:#ec407a;
-  box-shadow: none;
 }
 
 code {
