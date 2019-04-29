@@ -5,7 +5,7 @@ const initState = {
 const reviewReducer = (state = initState, action) => {
     switch(action.type) {
         case 'CREATE_REVIEW_SUCCESS':
-            console.log('create review success', action.review);
+            console.log('create review success', action.createCustomerReview);
             return state;
         
         case 'CREATE_REVIEW_ERR':
