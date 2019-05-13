@@ -10,6 +10,7 @@ const SignedInLinks = (props) => {
         <ul>            
             <li><a href="/" onClick={props.signOut}>Log Out</a></li>
             <li><NavLink to='/customer-review'>New Review</NavLink></li>
+            <li><NavLink to='/customer-sms'>SMS</NavLink></li>
         </ul>
     )
 }
